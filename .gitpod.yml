@@ -1,3 +1,5 @@
+image:
+  file: .gitpod.dockerfile
 tasks:
   - init: |
       touch /tmp/.npm-lock
@@ -5,6 +7,3 @@ tasks:
       rm /tmp/.npm-lock
     command: npm run server
   - init: sleep 1 && while [ -f /tmp/.npm-lock ]; do sleep 1; done
-  
-image:
-  file: .gitpod.dockerfile
