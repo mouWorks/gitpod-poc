@@ -1,0 +1,22 @@
+{
+  "name": "gitpod-poc",
+  "version": "0.0.1",
+  "description": "a poc to see if I can really develop on gitpod",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mouWorks/gitpod-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mouWorks/gitpod-poc/issues"
+  },
+  "homepage": "https://github.com/mouWorks/gitpod-poc#readme",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}
