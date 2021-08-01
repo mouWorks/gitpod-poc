@@ -3,16 +3,16 @@ import { Knex, knex } from 'knex'
 const words = someString()
 console.log(words)
 
+interface User {
+  id: number
+  name: string
+}
+
 export function say() {
   return words
 }
 
 export async function checkDB() {
-  interface User {
-    id: number
-    name: string
-  }
-
   const config: Knex.Config = {
     client: 'pg',
     connection: {
